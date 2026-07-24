@@ -54,7 +54,7 @@ A ideia do projeto foi reproduzir uma experiência semelhante ao Claude ou ChatG
 > Adicione aqui um print
 
 ```
-docs/home.jpeg
+![Home](docs/home.jpeg)
 ```
 
 ---
@@ -64,7 +64,7 @@ docs/home.jpeg
 > Adicione aqui um print
 
 ```
-docs/chat.jpg
+![Chat](docs/chat.jpeg)
 ```
 
 ---
@@ -74,7 +74,7 @@ docs/chat.jpg
 > Adicione aqui um print
 
 ```
-docs/relatorio.jpeg
+![Relatório](docs/relatorio.jpeg)
 ```
 
 ---
