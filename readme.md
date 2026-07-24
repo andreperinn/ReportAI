@@ -51,31 +51,19 @@ A ideia do projeto foi reproduzir uma experiência semelhante ao Claude ou ChatG
 
 ## Home
 
-> Adicione aqui um print
-
-```
 ![Home](docs/home.jpeg)
-```
 
 ---
 
 ## Chat
 
-> Adicione aqui um print
-
-```
 ![Chat](docs/chat.jpeg)
-```
 
 ---
 
 ## Relatório
 
-> Adicione aqui um print
-
-```
 ![Relatório](docs/relatorio.jpeg)
-```
 
 ---
 
