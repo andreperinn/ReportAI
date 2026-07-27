@@ -8,11 +8,10 @@
 
 ![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.x-green?style=for-the-badge)
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge)
-![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge)
 ![Gemini](https://img.shields.io/badge/Google-Gemini-blue?style=for-the-badge)
 ![H2](https://img.shields.io/badge/Database-H2-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
 
 </p>
 
@@ -122,28 +121,29 @@ A ideia do projeto foi reproduzir uma experiência semelhante ao Claude ou ChatG
 
 # 📂 Estrutura do Projeto
 
-```
-reportai/
+```text
+ReportAI/
 
-├── frontend/
-│
-│   ├── components/
-│   ├── hooks/
-│   ├── pages/
-│   ├── services/
-│   └── utils/
-│
-└── backend/
-    │
-    ├── controller/
-    ├── service/
-    ├── repository/
-    ├── entity/
-    ├── dto/
-    ├── mapper/
-    ├── ai/
-    ├── config/
-    └── util/
+├── reportai-backend/
+│   ├── controller/
+│   ├── service/
+│   ├── repository/
+│   ├── entity/
+│   ├── dto/
+│   ├── mapper/
+│   ├── ai/
+│   ├── document/
+│   ├── report/
+│   ├── exception/
+│   ├── config/
+│   └── util/
+
+└── reportai-frontend/
+    ├── components/
+    ├── hooks/
+    ├── pages/
+    ├── services/
+    └── utils/
 ```
 
 ---
@@ -193,16 +193,18 @@ Relatório final
 ```bash
 git clone https://github.com/andreperinn/ReportAI.git
 
+cd ReportAI
+
 cd reportai-backend
 
 ./mvnw spring-boot:run
 ```
 
----
-
 ## Frontend
 
 ```bash
+cd ReportAI
+
 cd reportai-frontend
 
 npm install
@@ -210,15 +212,21 @@ npm install
 npm run dev
 ```
 
----
+## Configuração da API do Gemini
 
-## Variáveis de ambiente
+Antes de iniciar o backend, configure a variável de ambiente `AI_API_KEY`.
 
-```env
-AI_API_KEY=SUA_CHAVE_DO_GEMINI
+### Windows (PowerShell)
+
+```powershell
+$env:AI_API_KEY="SUA_CHAVE_DO_GEMINI"
 ```
 
----
+### Linux / macOS
+
+```bash
+export AI_API_KEY="SUA_CHAVE_DO_GEMINI"
+```
 
 # 📡 API
 
@@ -297,11 +305,9 @@ Durante o desenvolvimento foram aplicados conceitos como:
 
 Estudante de Engenharia de Software apaixonado por desenvolvimento Full Stack e Inteligência Artificial.
 
-LinkedIn:
-https://www.linkedin.com/in/andr%C3%A9-perin-a7242b2b7/
+💼 LinkedIn: https://www.linkedin.com/in/andr%C3%A9-perin-a7242b2b7/
 
-GitHub:
-https://github.com/andreperinn
+💻 GitHub: https://github.com/andreperinn
 
 ---
 
